@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+#logo a {
+  color: gold;
+  font-size: 3em;
+  font-family: 'Indie Flower', cursive;
+  padding: 30px 0;
+  display: inline-block;
+}
+
+.navbar {
+  background-color: #fff !important;
+  border-top: 1px solid gold;
+}
+/*# sourceMappingURL=style.css.map */
