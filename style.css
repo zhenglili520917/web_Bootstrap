@@ -39,4 +39,20 @@
   font-size: 1em;
   padding: 5px 0 10px 0;
 }
+
+.buy-right {
+  padding-left: 0;
+}
+
+.buy-right div {
+  border-color: #333;
+  color: #fff !important;
+  text-align: left;
+  padding: 20px 20px 0 20px;
+  height: 100%;
+}
+
+.buy-left {
+  padding-right: 0;
+}
 /*# sourceMappingURL=style.css.map */
