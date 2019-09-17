@@ -27,7 +27,7 @@
   color: gold;
   font-family: 'Indie Flower', cursive;
   font-size: 2em;
-  padding: 20px 0;
+  padding: 50px 0;
   font-weight: 700;
 }
 
@@ -45,14 +45,26 @@
 }
 
 .buy-right div {
-  border-color: #333;
+  background-color: #2b2a2a;
   color: #fff !important;
   text-align: left;
   padding: 20px 20px 0 20px;
   height: 100%;
 }
 
-.buy-left {
+.buy-right .buy-left {
   padding-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .buy-left {
+    padding-right: 15px !important;
+  }
+  .buy-right {
+    padding-left: 15px !important;
+  }
+  .buy-right div {
+    padding-bottom: 50px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
