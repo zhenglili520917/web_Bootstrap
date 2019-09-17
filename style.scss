@@ -58,6 +58,15 @@
     }
 }
 
+.slider {
+    margin: 20px 0;
+    width: 100%;
+
+    button {
+        display: none !important;
+    }
+}
+
 // RWD
 @media screen and (max-width: 767px) {
     .buy-left {
