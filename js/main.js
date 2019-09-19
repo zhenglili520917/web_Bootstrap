@@ -28,5 +28,19 @@ $(document).ready(function () {
         }
     });
 
+    // 連結捲動到標題
+    $('.nav-link').click(function (e) {
+
+        // 取得點選連結的屬性 href 內容
+        var link = $(this).attr('href');
+        console.log(link);
+
+        // 取得目標標題上方 (位移 上方)
+        var top = $(link).offset().top;
+        console.log(top);
+
+        // 動畫
+        $('html,body').animate({scrollTop: top}, 1000);
+    });
 
 });
